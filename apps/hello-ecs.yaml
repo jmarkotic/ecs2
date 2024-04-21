@@ -36,7 +36,7 @@ spec:
   ports:
   - port: 80      # Port exposed within the cluster
     targetPort: 80  # Port on the pods
-    nodePort: 30099   # Port accessible externally on each node
+    nodePort: 30098   # Port accessible externally on each node
   selector:
     app: nginx-hello-ecs
 
